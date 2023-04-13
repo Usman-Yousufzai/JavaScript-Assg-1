@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+// Fixed price per kg of chicken in rupees
+var pricePerKg = 500;
+
+// Taking user input for weight of chicken in grams
+var weightInGrams = parseFloat(prompt("Enter the weight of chicken in grams:"));
+
+// Calculating price of chicken
+var price = (weightInGrams / 1000) * pricePerKg;
+
+// Displaying the output
+document.write("You have to pay " + price + " Rs for " + weightInGrams + " grams.");
+
+</script>
+
+</body>
+</html>
